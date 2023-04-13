@@ -1,6 +1,6 @@
 # Turbine Monitor System
 
-Authors: [Aryan Obrai](https://github.com/Ares278)
+Author: [Aryan Obrai](https://github.com/Ares278)
   
 ## Project Description
 

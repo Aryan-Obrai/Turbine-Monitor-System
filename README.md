@@ -1,2 +1,30 @@
-# Turbine-Monitor-System
-This project features a turbine monitoring system designed to provide real-time feedback using ultrasonic sensors and a Nokia 5110 LCD screen. The system was implemented with Arduino and includes functionality for monitoring turbine rotation, detecting objects, and controlling speed and direction via a joystick.
+Introduction:
+  The Turbine Monitor System showcases how a turbine motor, used for power, can be
+monitored via ultrasonic sensors and LCD screens. It serves as a model for larger scale
+operations where the concept remains the same, although the parts may vary. The turbine spins
+and signals when there is power being generated, and when an object is detected, it stops
+spinning until the object is cleared. Objects in real-world scenarios could range from cars, people
+to airplanes.
+Functionality:
+  The system comprises of a joystick that serves as the primary controller input for the user.
+To turn the system on or off, the user needs to press the joystick once. To control the speed and
+direction of the turbine, the user can use the UP, DOWN, LEFT, and RIGHT buttons on the
+joystick. A green LED indicates the presence of power, and a red LED signals that the system is
+losing power or there is an object detected. If the green LED is off, the turbine will stop spinning.
+When the system is on, the ultrasonic sensor automatically detects objects and outputs the
+distance via the LCD screen. The speed and direction of the turbine are also displayed on the
+screen. If the system turns off, the LCD will remain blank. If the system loses power, the LCD
+will display the last speed, direction, and distance detected.
+Complexities:
+  The system comprises of three components: Ultra Sonic Sensor, DC Motor, and Nokia
+5110 LCD Screen. All three complexities have been implemented successfully and are fully
+functional.
+User Guide:
+  The user needs to connect the components using Male to Male and Male to Female wires.
+The following are the hardware components used: Ultra Sonic Sensor, Nokia 5110 LCD Screen,
+DC Motor, L298N Driver, Joystick, Fan Header, 9 Volt External Battery, Arduino Uno, Red
+LED, and Green LED. The software libraries used in the project include #include <SPI.h>,
+#include <font.h>, and #include <stdlib.h>. The SPI library was used to test the initial code for
+the LCD to check if it was wired correctly. The font library was used to print ASCII characters,
+and the stdlib library reduced testing time significantly by utilizing simple functions such as
+converting a double to a string.

@@ -1,11 +1,18 @@
-Introduction:
+#Turbine Monitor System
+
+Authors: [Aryan Obrai](https://github.com/Ares278)
+  
+## Project Description
+
   The Turbine Monitor System showcases how a turbine motor, used for power, can be
 monitored via ultrasonic sensors and LCD screens. It serves as a model for larger scale
 operations where the concept remains the same, although the parts may vary. The turbine spins
 and signals when there is power being generated, and when an object is detected, it stops
 spinning until the object is cleared. Objects in real-world scenarios could range from cars, people
 to airplanes.
-Functionality:
+
+## Functionality
+
   The system comprises of a joystick that serves as the primary controller input for the user.
 To turn the system on or off, the user needs to press the joystick once. To control the speed and
 direction of the turbine, the user can use the UP, DOWN, LEFT, and RIGHT buttons on the
@@ -15,11 +22,14 @@ When the system is on, the ultrasonic sensor automatically detects objects and o
 distance via the LCD screen. The speed and direction of the turbine are also displayed on the
 screen. If the system turns off, the LCD will remain blank. If the system loses power, the LCD
 will display the last speed, direction, and distance detected.
-Complexities:
+## Complexities:
+
   The system comprises of three components: Ultra Sonic Sensor, DC Motor, and Nokia
 5110 LCD Screen. All three complexities have been implemented successfully and are fully
 functional.
-User Guide:
+
+## User Guide:
+
   The user needs to connect the components using Male to Male and Male to Female wires.
 The following are the hardware components used: Ultra Sonic Sensor, Nokia 5110 LCD Screen,
 DC Motor, L298N Driver, Joystick, Fan Header, 9 Volt External Battery, Arduino Uno, Red

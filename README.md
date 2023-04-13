@@ -1,4 +1,4 @@
-##Turbine Monitor System
+# Turbine Monitor System
 
 Authors: [Aryan Obrai](https://github.com/Ares278)
   

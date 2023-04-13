@@ -24,18 +24,18 @@ will display the last speed, direction, and distance detected.
 
 ## Wiring Guide
 
-define RST A5
-define CE A4
-define DC  2
-define DIN 3 
-define CLK 4 
-define echoPin 8
-define trigPin 10
-define ENA 9
-define INA 6
-define INB 7
-define RED 12
-define GREEN 13
-define JS_X = A2;
-define JS_Y = A1;
-define JS_BTN = 11;
+define RST A5  <br>
+define CE A4  <br>
+define DC  2  <br>
+define DIN 3   <br>
+define CLK 4   <br>
+define echoPin 8  <br>
+define trigPin 10  <br>
+define ENA 9  <br>
+define INA 6  <br>
+define INB 7  <br>
+define RED 12  <br>
+define GREEN 13  <br>
+define JS_X = A2;  <br>
+define JS_Y = A1;  <br>
+define JS_BTN = 11;  <br>
